@@ -1,0 +1,140 @@
+@import "./file.css";
+@import "./font.css";
+
+body {
+    padding: 0px;
+    margin: 0px;
+    /*font-family: 'poppins-regular';*/
+    font-size: 14px;
+    color: #a0a4ae;
+    background-color: #08021d;
+    height: 100vh;
+}
+
+
+.form_div {
+    background: linear-gradient(#1c182a4d,#1c182ab3);
+    height: 100vh;
+}
+
+.right_div {
+    height: 100vh;
+}
+.footer {
+    color: #a0a4ae;
+    position: fixed;
+    bottom: 0px;
+    left:40%;
+    @media(max-width: 768px) {
+        left:0%;
+    }
+}
+
+
+
+.align-text-middle {
+    vertical-align: middle !important;
+}
+
+
+.header_menu {
+    a, a:hover, a:active, a.show, a:focus, .nav-link.show {
+        color: #fff;
+        font-size: 15px;
+    }
+    .nav-item {
+        padding: 0px 15px;
+    }
+    .dropdown-menu a {
+        color: #000;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+
+h1.mobile_web_font, .h1.mobile_web_font {
+    font-size: 50px;
+    @media (max-width: 768px) {
+        font-size: 26px;
+    }
+}
+
+h2.mobile_web_font, .h2.mobile_web_font {
+    font-size: 40px;
+    @media (max-width: 768px) {
+        font-size: 22px;
+    }
+}
+
+h3.mobile_web_font .h3.mobile_web_font {
+    font-size: 36px;
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+h4.mobile_web_font, .h4.mobile_web_font {
+    font-size: 32px;
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+}
+
+h5.mobile_web_font, .h5.mobile_web_font {
+    font-size: 28px;
+    @media (max-width: 768px) {
+        font-size: 16px;
+    }
+}
+
+h6.mobile_web_font, .h6.mobile_web_font {
+    font-size: 23px;
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+
+input.form-control {
+    /*border-radius: 50%;*/
+}
+
+.form-control:focus {
+    border-color: #ccc;
+    box-shadow: none ;
+}
+
+.btn-primary-2 {
+    background-color: #7EA842;
+    color: #000;
+    border-color: #7EA842
+}
+.btn-primary-2:hover {
+    background-color: #669524;
+    color: #000;
+}
+
+.form-control-add {
+    border-radius: 0px;
+    font-size: 15px;
+    background-color: #403d4f4d;
+    color:#FFF;
+    padding: 14px 35px;
+    letter-spacing:1px;
+    border: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control-add:focus {
+    color: #FFF;
+    background-color: #7271754d;
+    border-color: gray;
+    outline: 0;
+    box-shadow: none !important;
+    border: none;
+    box-shadow: none !important;
+}
+
+.form-control-add::placeholder {
+  color: #AAA;
+  opacity: 1; /* Firefox */
+}
